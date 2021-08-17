@@ -1,0 +1,17 @@
+{
+  "name": "app2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "avon-footer": "github:humeniukd/avon-footer",
+    "avon-header": "github:humeniukd/avon-header"
+  }
+}

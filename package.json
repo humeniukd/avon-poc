@@ -1,0 +1,20 @@
+{
+  "name": "avon-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "cd app/ && yarn && cd ../app1 && yarn && cd ../app2 && yarn && cd ..",
+    "run-app": "cd app/ && yarn dev",
+    "run-app1": "cd app1/ && yarn dev",
+    "run-app2": "cd app2/ && yarn dev"
+  },
+  "keywords": [
+    "nextjs",
+    "stencil"
+  ],
+  "author": "Dmitry Humeniuk",
+  "license": "MIT",
+  "homepage": "https://github.com/humeniukd/avon-poc"
+}
